@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[x-cloak] {
+    display: none;
+}
+
+.imagen-producto {
+    width: 200px;  /* Ancho deseado */
+    height: 200px; /* Alto deseado */
+    object-fit: contain;
+}
